@@ -1,4 +1,5 @@
 import os
+
 os.environ["SDL_IME_SHOW_UI"] = "0"
 
 import pygame
@@ -420,6 +421,8 @@ def main():
                 e.draw(screen)
             for ex in explosions:
                 ex.draw(screen)
+
+
             if not game_over:
                 player.draw(screen)
 
